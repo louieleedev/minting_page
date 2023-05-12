@@ -1,0 +1,80 @@
+.footer {
+    background: #0C0C0C;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.footer__logo{
+    width: 60px;
+    object-fit: contain;        /* Always keep the aspact racio of heritart logo */
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__option{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.footer__optionLineOne{
+    font-size: 10px;
+}
+
+.footer__optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+.footer__optionLineLogo{
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.footer__logoDescription{
+    font-weight: 300;
+    font-size: 15px;
+    color: #D9D9D9;
+
+}
+
+.logo_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.footer__link{
+    color: white;
+    text-decoration: none;
+}
+
+.links{
+    color: #D9D9D9;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 35px;
+}
+
+.footer__social{
+    position: absolute;
+    float: right;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    right: 0%;
+    margin-right: 30px;
+}
+
+

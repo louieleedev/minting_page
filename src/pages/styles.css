@@ -1,0 +1,26 @@
+.legacy{
+  background-color: #0c0c0c;
+  color: white
+}
+
+.legacy-contents {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  width: 80%;
+  vertical-align: center;
+  float: center;
+  position:relative; left:50%; margin-left: -40%;
+}
+
+.legacy-text {
+  text-align: center;
+}
+
+.legacy-title{
+  text-align: center;
+  margin-bottom: 90px;
+  font-size: 40px;
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}

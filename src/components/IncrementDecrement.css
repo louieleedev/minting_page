@@ -1,0 +1,103 @@
+
+
+.increment-decrement {
+    /* text-align: center;
+    margin-top: 100px;
+    background-color: #484848;
+    width: 170px;
+    height: 73px; */
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #202225;
+    border-radius: 20px;
+    border:2px solid #484848;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.count-btn {
+
+    width: 60px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    /* background-color: #8498a7; */
+    -webkit-transition: background-color 100ms ease-in;
+    transition: background-color 100ms ease-in;
+}
+
+.count-down {
+    border-radius: 5px 0 0 5px; 
+}
+
+.count-up {
+    border-radius: 0 5px 5px 0;
+}
+
+.counter {
+    position: relative;
+    width: 45px;
+    height:70px;
+    color: #ffffff;
+    background-color: transparent;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: center;
+
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+
+}
+
+@media screen and (max-width: 500px) {
+    .increment-decrement {
+        align-items: left;
+        background-color: #202225;
+        border-radius: 30px;
+        border:2px solid #484848;
+        font-size: 18px;
+        font-weight: 500;
+        justify-content: start;
+        float:left;
+    }
+    
+    .count-btn {
+    
+        width: 60px;
+        line-height: 35px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        -webkit-transition: background-color 100ms ease-in;
+        transition: background-color 100ms ease-in;
+    }
+    
+
+    
+    .counter {
+        position: relative;
+        width: 22px;
+        height:60px;
+        color: #ffffff;
+        background-color: transparent;
+        overflow: hidden;
+    
+    }
+  }
